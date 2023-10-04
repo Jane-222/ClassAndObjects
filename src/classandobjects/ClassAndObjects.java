@@ -44,6 +44,7 @@ public class ClassAndObjects {
         
         Person zhiya = new Person();
         zhiya.favTriangle = tri5;
+        
     }
     
 }
