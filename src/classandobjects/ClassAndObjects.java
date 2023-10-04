@@ -4,6 +4,7 @@
  */
 package classandobjects;
 
+import Shapes.Rectangle;
 import Shapes.Triangle;
 
 /**
@@ -43,7 +44,13 @@ public class ClassAndObjects {
         sideLengths[16] = 3;
         
         Person zhiya = new Person();
-        zhiya.favTriangle = tri5;
+     //   zhiya.favTriangle = tri5;
+        
+        Rectangle rect1 = new Rectangle();
+        System.out.println(rect1.getArea());
+     //   Shape shape1 = newShape();
+        System.out.println(rect1.getColour());
+        System.out.println(tri5.getColour);
         
     }
     
