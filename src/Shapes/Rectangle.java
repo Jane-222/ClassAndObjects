@@ -9,8 +9,8 @@ package Shapes;
  * @author zhiya
  */
 public class Rectangle extends Shape {
-   private String Colour;
-   private boolean IsFilled;
+  // private String Colour;
+   //private boolean IsFilled;
    private double height = 5.0;
    private double width = 6.2;//or double
 

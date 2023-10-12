@@ -10,15 +10,26 @@ package Shapes;
  */
 public abstract class Shape {
     
-   private String Colour = "Yellow";
+   protected String colour = "Yellow";
    private boolean IsFilled = true;
+   
+   public Shape(){
+       System.out.println("Shape1");
+   }
+   public Shape(boolean isFilled, String colour){
+       super(isFilled, colour);
+       this.isFilled
+   }
 
+   public Rectangle(){
+       
+   }
     public String getColour() {
-        return Colour;
+        return colour;
     }
 
     public void setColour(String Colour) {
-        this.Colour = Colour;
+        this.colour = Colour;
     }
 
     public boolean isIsFilled() {
@@ -28,4 +39,5 @@ public abstract class Shape {
     public void setIsFilled(boolean IsFilled) {
         this.IsFilled = IsFilled;
     } 
+    public abstract double getArea();
 }

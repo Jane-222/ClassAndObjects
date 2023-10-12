@@ -18,4 +18,12 @@ public class Person {
     double height;
     private boolean isProgrammer;
     private Triangle favTriangle;//favourire triangle 
+    
+}
+public Person(){
+   age = 20;
+name = "Michael";
+
+
+
 }
