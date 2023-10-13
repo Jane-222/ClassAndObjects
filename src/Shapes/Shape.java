@@ -16,13 +16,10 @@ public abstract class Shape {
    public Shape(){
        System.out.println("Shape1");
    }
-   public Shape(boolean isFilled, String colour){
-       super(isFilled, colour);
-       this.isFilled
-   }
-
-   public Rectangle(){
-       
+   public Shape(boolean IsFilled, String colour){
+       this.IsFilled = IsFilled;
+       this.colour = colour;
+       System.out.println("Shape 2");
    }
     public String getColour() {
         return colour;

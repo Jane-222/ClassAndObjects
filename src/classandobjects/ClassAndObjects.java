@@ -49,18 +49,18 @@ public class ClassAndObjects {
      //   zhiya.favTriangle = tri5;
         System.out.println("---Rectangle---");
         Rectangle rect1 = new Rectangle();
-        Rectangle rect2 = new Rectangle(True,"Blue",5,6);
+        Rectangle rect2 = new Rectangle(true,"Blue",5,6);
         System.out.println(rect1.getArea());
      //   Shape shape1 = newShape();
     System.out.println(rect1.getColour());
         System.out.println(tri5.getColour());
         
         Person p4 = new Person("Sam", 100);
-        Person p3 new Person(42,"Ken");
+        Person p3 = new Person(42,"Ken");
         Person p1 = new Person();
         Person p2 = new Person(5);
         
-        Shape s1 = new Shape();
+       // Shape s1 = new Shape();
     }
     
 }

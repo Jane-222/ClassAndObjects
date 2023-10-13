@@ -60,6 +60,8 @@ public class Triangle extends Shape {
     /*
     Excersice: Make a Circle class
     give it a radius attribute.
+    
+    Exercise 2: Make a Square class.
     */
     
 }

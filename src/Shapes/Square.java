@@ -10,5 +10,9 @@ package Shapes;
  */
 public class Square extends Rectangle {
 
+    public Square(boolean IsFilled, String colour, int length) {
+        super(IsFilled, colour, length, length);
+    }
+
     
 }
